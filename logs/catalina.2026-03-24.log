@@ -1,0 +1,1034 @@
+24-Mar-2026 21:10:17.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.39
+24-Mar-2026 21:10:17.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2025 19:02:32 UTC
+24-Mar-2026 21:10:17.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.39.0
+24-Mar-2026 21:10:17.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+24-Mar-2026 21:10:17.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.2
+24-Mar-2026 21:10:17.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+24-Mar-2026 21:10:17.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+24-Mar-2026 21:10:17.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+8-LTS-191
+24-Mar-2026 21:10:17.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Mar-2026 21:10:17.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/apache-tomcat-10.1.39
+24-Mar-2026 21:10:17.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/apache-tomcat-10.1.39
+24-Mar-2026 21:10:17.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/apache-tomcat-10.1.39/conf/logging.properties
+24-Mar-2026 21:10:17.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Mar-2026 21:10:17.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512M
+24-Mar-2026 21:10:17.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms64M
+24-Mar-2026 21:10:17.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+24-Mar-2026 21:10:17.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Mar-2026 21:10:17.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Mar-2026 21:10:17.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+24-Mar-2026 21:10:17.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Mar-2026 21:10:17.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Mar-2026 21:10:17.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+24-Mar-2026 21:10:17.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-Mar-2026 21:10:17.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-Mar-2026 21:10:17.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-Mar-2026 21:10:17.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Mar-2026 21:10:17.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/apache-tomcat-10.1.39
+24-Mar-2026 21:10:17.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/apache-tomcat-10.1.39
+24-Mar-2026 21:10:17.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/apache-tomcat-10.1.39/temp
+24-Mar-2026 21:10:17.164 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/abhisheksingh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+24-Mar-2026 21:10:17.258 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Mar-2026 21:10:17.271 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [189] milliseconds
+24-Mar-2026 21:10:17.290 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Mar-2026 21:10:17.290 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.39]
+24-Mar-2026 21:10:17.293 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/apache-tomcat-10.1.39/webapps/server]
+24-Mar-2026 21:10:21.626 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2026 21:10:31.403 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/apache-tomcat-10.1.39/webapps/server] has finished in [14,110] ms
+24-Mar-2026 21:10:31.404 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/apache-tomcat-10.1.39/webapps/docs]
+24-Mar-2026 21:10:31.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/apache-tomcat-10.1.39/webapps/docs] has finished in [8] ms
+24-Mar-2026 21:10:31.413 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/apache-tomcat-10.1.39/webapps/manager]
+24-Mar-2026 21:10:31.423 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/apache-tomcat-10.1.39/webapps/manager] has finished in [10] ms
+24-Mar-2026 21:10:31.423 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/apache-tomcat-10.1.39/webapps/examples]
+24-Mar-2026 21:10:31.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/apache-tomcat-10.1.39/webapps/examples] has finished in [69] ms
+24-Mar-2026 21:10:31.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/apache-tomcat-10.1.39/webapps/ROOT]
+24-Mar-2026 21:10:31.497 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/apache-tomcat-10.1.39/webapps/ROOT] has finished in [5] ms
+24-Mar-2026 21:10:31.497 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/apache-tomcat-10.1.39/webapps/host-manager]
+24-Mar-2026 21:10:31.503 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/apache-tomcat-10.1.39/webapps/host-manager] has finished in [6] ms
+24-Mar-2026 21:10:31.504 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Mar-2026 21:10:31.516 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [14245] milliseconds
+24-Mar-2026 22:59:43.117 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Mar-2026 22:59:43.125 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Mar-2026 22:59:43.131 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Mar-2026 22:59:43.573 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Object.wait(Native Method)
+ org.dspace.service.impl.HttpConnectionPoolService$IdleConnectionMonitorThread.run(HttpConnectionPoolService.java:176)
+24-Mar-2026 22:59:43.573 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.573 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.573 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.573 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.574 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.574 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.574 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.574 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.574 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.574 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.574 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.575 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.575 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.575 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.575 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.575 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.575 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.576 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.576 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.576 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.576 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.576 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.576 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.576 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.576 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.576 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.577 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.577 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.577 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.577 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.577 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.577 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.577 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.577 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.577 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.578 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.578 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.578 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.578 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.578 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.578 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.578 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.578 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.579 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.579 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.579 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.579 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.579 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.579 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.579 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.579 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.579 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.579 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.580 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.580 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.580 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.580 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.580 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.580 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.580 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.580 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.580 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.580 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.580 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.581 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.581 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.581 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.581 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.581 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.581 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.581 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.581 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.582 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.582 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.582 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.583 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.583 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.583 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.583 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.583 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.584 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.584 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.584 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.584 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.584 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.586 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.586 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.586 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.586 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.586 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.586 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.586 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.586 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.587 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.587 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.587 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.587 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.587 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.587 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.587 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.587 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.587 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.587 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.588 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.588 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.588 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.588 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.588 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.588 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.588 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.588 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.589 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.589 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.589 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.589 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.589 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.589 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.589 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.589 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.589 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.590 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.590 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.590 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.590 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.590 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.590 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.590 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.590 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.590 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.591 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.591 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.591 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.591 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.591 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.591 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.591 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.592 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.592 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.592 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.592 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.592 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.592 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.592 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.593 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.593 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.593 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.593 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.593 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.593 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.594 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.594 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.594 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.594 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.594 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.594 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.594 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.595 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.595 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.595 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.595 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.595 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.595 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.595 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.595 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.595 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.595 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.596 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.596 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.596 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.596 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.596 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.596 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.596 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.596 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.596 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.596 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.597 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.597 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.597 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.597 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.597 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.597 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.597 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.597 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.597 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.597 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.598 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.598 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.598 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.598 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.598 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.598 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.598 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.598 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.598 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.599 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.599 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.599 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.599 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.599 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.599 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.599 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.599 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.600 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.600 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.600 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.600 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.600 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.600 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.600 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.600 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.601 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.601 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.601 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.601 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.601 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.601 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.601 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.601 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.601 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.602 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.602 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.602 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.602 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.602 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.602 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.603 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.603 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.603 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.603 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.603 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.603 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.603 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.603 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.604 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.604 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.604 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.604 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.605 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.605 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.605 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.605 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+24-Mar-2026 22:59:43.607 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [server] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@69df449e]) and a value of type [net.sf.saxon.expr.sort.LRUCache] (value [net.sf.saxon.expr.sort.LRUCache@3c49d5ad]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+24-Mar-2026 22:59:43.629 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Mar-2026 22:59:43.641 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Mar-2026 22:59:43.643 INFO [300] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.lang.Process]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.lang.Process]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1398)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1386)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1220)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1187)
+		at org.apache.tika.parser.AbstractExternalProcessParser.lambda$static$0(AbstractExternalProcessParser.java:43)
+		at java.base/java.lang.Thread.run(Thread.java:842)

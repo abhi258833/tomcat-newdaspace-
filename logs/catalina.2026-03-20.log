@@ -1,0 +1,24 @@
+20-Mar-2026 10:30:32.898 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Mar-2026 10:30:32.982 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Mar-2026 10:30:35.122 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Object.wait(Native Method)
+ org.dspace.service.impl.HttpConnectionPoolService$IdleConnectionMonitorThread.run(HttpConnectionPoolService.java:176)
+20-Mar-2026 10:30:35.124 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+20-Mar-2026 10:30:35.124 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+20-Mar-2026 10:30:35.125 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+20-Mar-2026 10:30:35.126 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [server] appears to have started a thread named [Connection evictor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+ org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+ java.base@17.0.14/java.lang.Thread.run(Thread.java:842)
+20-Mar-2026 10:30:35.127 SEVERE [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [server] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@12631e8a]) and a value of type [net.sf.saxon.expr.sort.LRUCache] (value [net.sf.saxon.expr.sort.LRUCache@5fce5b97]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Mar-2026 10:30:35.184 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Mar-2026 10:30:35.209 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

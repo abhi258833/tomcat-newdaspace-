@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:15:42:13 +0530] "GET / HTTP/1.1" 200 11417
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:15:42:13 +0530] "GET / HTTP/1.1" 200 11417
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:15:42:21 +0530] "GET /server HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:15:42:22 +0530] "GET /server/webjars/urijs/src/URI.min.js HTTP/1.1" 200 47616
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:15:42:22 +0530] "GET /server/webjars/underscore/underscore-min.js HTTP/1.1" 200 19526
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:15:42:22 +0530] "GET /server/webjars/jquery/dist/jquery.min.js HTTP/1.1" 200 87533
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:15:42:22 +0530] "GET /server/webjars/backbone/backbone-min.js HTTP/1.1" 200 25200
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:15:42:22 +0530] "GET /server/webjars/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 62563
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:15:42:22 +0530] "GET /server/browser/vendor/js/uritemplates.js HTTP/1.1" 200 11969
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:15:42:22 +0530] "GET /server/browser/js/hal.js HTTP/1.1" 200 2448
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:15:42:22 +0530] "GET /server/browser/js/hal/views/explorer.js HTTP/1.1" 200 557
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:15:42:22 +0530] "GET /server/browser/js/hal/resource.js HTTP/1.1" 200 1152
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:15:42:22 +0530] "GET /server/browser/js/hal/views/browser.js HTTP/1.1" 200 736
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:15:42:22 +0530] "GET /server/browser/js/hal/browser.js HTTP/1.1" 200 1425
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:15:42:22 +0530] "GET /server/js/hal/http/client.js HTTP/1.1" 200 6281
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:15:42:22 +0530] "GET /server/api HTTP/1.1" 200 8487

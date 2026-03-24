@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [13/Feb/2026:00:28:26 +0530] "OPTIONS /server/api/authn/status HTTP/1.1" 200 5
+0:0:0:0:0:0:0:1 - - [13/Feb/2026:00:28:26 +0530] "GET /server/api/authn/status HTTP/1.1" 200 435
+0:0:0:0:0:0:0:1 - - [13/Feb/2026:00:28:26 +0530] "OPTIONS /server/api/security/csrf HTTP/1.1" 200 5
+0:0:0:0:0:0:0:1 - - [13/Feb/2026:00:28:26 +0530] "GET /server/api/security/csrf HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [13/Feb/2026:00:28:26 +0530] "OPTIONS /server/api/authn/logout HTTP/1.1" 200 5
+0:0:0:0:0:0:0:1 - - [13/Feb/2026:00:28:26 +0530] "POST /server/api/authn/logout HTTP/1.1" 204 -
